@@ -1,89 +1,111 @@
 # internet-use-depression-analysis
 Analysis of the association between internet usage and depression among older adults in England using ELSA Wave 7 data
 
-#  Internet Usage & Depression Analysis (ELSA Wave 7)
+# 📊 Internet Usage & Depression Analysis (ELSA Wave 7)
 
-##  Project Overview
+## 📌 Project Overview
 
-This project investigates the relationship between **internet usage and depression among older adults (50+) in England** using data from the **English Longitudinal Study of Ageing (ELSA) Wave 7**.
+This project examines the association between **internet usage and depression among older adults (aged 50+) in England** using ELSA Wave 7 data.
 
-The study applies **statistical analysis techniques** including Chi-Square tests and Logistic Regression to examine whether digital engagement is associated with mental wellbeing.
+Statistical methods such as **Chi-Square analysis and Logistic Regression** are used to explore how digital engagement affects mental health outcomes.
 
+---
 
-##  Key Findings
+## 🎯 Key Findings
 
-* Internet users have **lower odds of depression** compared to non-users.
-* Poor general health is strongly associated with **higher depression levels**.
-* Digital engagement appears to play a **protective role in mental health**.
+* Internet users show **lower levels of depression**
+* Poor general health is linked to **higher depression**
+* Digital engagement plays a **protective role in mental wellbeing**
 
+---
 
-##  Visual Analysis
+## 📊 Visual Analysis
 
-### 1. Chi-Square Analysis
+### 📌 Chi-Square Data Table
 
-![Chi Square](chi_square_data_table.png)
+![Chi Square](Visual/chi_square_data_table.png)
 
-✔ Shows a **statistically significant association** between internet usage and depression.
+✔ Indicates a statistically significant relationship between internet usage and depression.
 
+---
 
-### 2. Logistic Regression Results
+### 📌 Covariates Distribution
 
-![Regression](regression_results.png)
+![Covariates](Visual/covariates_distribution_table.png)
 
-✔ Internet use remains a **significant predictor of lower depression** even after controlling for other variables.
+✔ Shows distribution of key variables such as age, health, and physical activity.
 
+---
 
-### 3. Internet Usage Distribution
+### 📌 Depression Status Table
 
-![Internet Usage](internet_usage_stats.png)
+![Depression](Visual/depression_status_table.png)
 
-✔ Majority of participants are **internet users (~76%)**.
+✔ Highlights the proportion of participants experiencing depression.
 
+---
 
-### 4. Physical Activity Distribution
+### 📌 Health vs Depression Trend
 
-![Physical Activity](physical_activity_dist.png)
+![Trend](Visual/health_vs_depression_trend.png)
 
-✔ Most participants report **low physical activity levels**.
+✔ Demonstrates that as general health declines (*Excellent → Poor*), depression increases.
 
+---
 
-### 5. Health vs Depression Trend
+### 📌 Variables Summary Table
 
-![Health vs Depression](health_vs_depression_trend.png)
+![Summary](Visual/variables_summary_table.png)
 
-✔ As general health declines from *Excellent → Poor*, the **mean depression level increases**.
+✔ Provides an overview of all variables used in the study.
 
-##  Methodology
+---
+
+## 🧪 Methodology
 
 * Dataset: **ELSA Wave 7**
-* Sample Size: **820 participants (age 50+)**
-* Analysis Techniques:
+* Sample Size: **820 participants**
+* Methods:
 
   * Chi-Square Test
-  * Binary Logistic Regression
-* Tools Used:
+  * Logistic Regression
+* Tool Used: **SPSS**
 
-  * SPSS
-  * Data Visualization
+---
 
-
-##  Key Statistics
+## 📈 Key Statistics
 
 * Internet Users: **76.85%**
-* Depression Prevalence: **68.4%**
-* Logistic Model Accuracy: **69.4%**
+* Depression Rate: **68.4%**
+* Model Accuracy: **69.4%**
 * Odds Ratio (Internet Use): **0.617**
 
+---
 
-##  Conclusion
+## 📚 Conclusion
 
-The findings suggest that **internet usage is associated with reduced depression risk** among older adults. While causality cannot be confirmed, improving **digital access and literacy** may support mental wellbeing and healthy ageing.
+The results suggest that **internet usage is associated with reduced depression risk** among older adults. Improving digital access and literacy may support better mental health and healthy ageing.
 
+---
 
-##  Limitations
+## ⚠️ Limitations
 
 * Cross-sectional data (no causality)
-* Limited variables due to missing data
+* Missing data reduced sample size
 * Self-reported measures
+
+---
+
+## 📂 Folder Structure
+
+📁 Visual/
+├── chi_square_data_table.png
+├── covariates_distribution_table.png
+├── depression_status_table.png
+├── health_vs_depression_trend.png
+├── variables_summary_table.png
+
+📄 README.md
+
 
 ---
